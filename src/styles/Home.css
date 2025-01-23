@@ -1,0 +1,52 @@
+/* עיצוב טבלה */
+.cost-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 15px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cost-table th {
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+}
+
+.cost-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* שורות מתחלפות */
+.cost-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* הודעה כאשר אין נתונים */
+.no-data {
+    text-align: center;
+    padding: 20px;
+    font-style: italic;
+    color: #777;
+}
+
+/* עיצוב כפתור Delete */
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 4px 10px rgba(255, 77, 77, 0.3);
+}

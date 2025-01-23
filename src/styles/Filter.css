@@ -1,0 +1,38 @@
+/* ✅ שינוי רקע ותוכן של ה-Select עצמו */
+.dark-mode .MuiInputBase-root {
+    background-color: #333 !important; /* רקע כהה */
+    color: white !important; /* טקסט בהיר */
+    border: 1px solid #555 !important; /* מסגרת מותאמת */
+}
+
+/* ✅ שינוי צבע הטקסט בתוך ה-Select */
+.dark-mode .MuiSelect-select {
+    color: white !important; /* טקסט לבן */
+}
+
+/* ✅ שינוי צבע תפריט הבחירה */
+.dark-mode .MuiPaper-root {
+    background-color: #222 !important; /* רקע כהה יותר */
+    color: white !important; /* טקסט בהיר */
+}
+
+/* ✅ שינוי צבע האפשרויות שבתוך התפריט */
+.dark-mode .MuiMenuItem-root {
+    background-color: #333 !important; /* רקע כהה */
+    color: white !important; /* טקסט בהיר */
+}
+
+/* ✅ אפקט Hover על אפשרויות הבחירה */
+.dark-mode .MuiMenuItem-root:hover {
+    background-color: #444 !important; /* רקע מעט בהיר יותר */
+}
+
+/* ✅ שינוי צבע החץ (Dropdown Arrow) */
+.dark-mode .MuiSvgIcon-root {
+    color: white !important; /* צבע לבן כדי להתאים למצב כהה */
+}
+
+/* ✅ שינוי צבע של המסגרת כאשר ה-Select בפוקוס */
+.dark-mode .MuiOutlinedInput-notchedOutline {
+    border-color: white !important; /* מסגרת לבנה */
+}
